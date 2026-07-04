@@ -3950,16 +3950,6 @@
 		)
 		(uuid "0495cd48-9a54-4c05-9485-2ff276da6075")
 	)
-	(label "BUTTON3"
-		(at 240.03 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "064768cc-0edf-4524-a261-627b5d0c37d3")
-	)
 	(label "BUTTON5"
 		(at 215.9 40.64 180)
 		(effects
@@ -3979,6 +3969,16 @@
 			(justify left bottom)
 		)
 		(uuid "110e6e90-8e06-44fc-a4b6-82c7438c613f")
+	)
+	(label "BUTTON4"
+		(at 240.03 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "129c1ac9-c0cb-4f17-9fb0-328aae739008")
 	)
 	(label "SCL"
 		(at 114.3 82.55 180)
@@ -4150,16 +4150,6 @@
 		)
 		(uuid "5c5682ac-4e9a-4944-bf4a-19022e18b9b1")
 	)
-	(label "BUTTON4"
-		(at 237.49 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65536ec5-86da-401d-8843-985b17216c56")
-	)
 	(label "L_AUDIO"
 		(at 86.36 52.07 0)
 		(effects
@@ -4239,6 +4229,16 @@
 			(justify left bottom)
 		)
 		(uuid "e916eec8-179c-4b44-99ea-b5b2f16c13f9")
+	)
+	(label "BUTTON3"
+		(at 237.49 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea1cbf4b-9eaa-4a4c-97dc-b9e7648452fc")
 	)
 	(label "CS"
 		(at 73.66 140.97 0)
@@ -5072,7 +5072,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 62.23 270)
+		(at 254 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5083,7 +5083,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b00e688-9b97-4814-956a-a130c0b7e4c5")
 		(property "Reference" "R7"
-			(at 251.46 55.88 90)
+			(at 254 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5093,7 +5093,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 251.46 58.42 90)
+			(at 254 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5103,7 +5103,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 251.46 60.452 90)
+			(at 254 75.692 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5114,7 +5114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 62.23 0)
+			(at 254 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5125,7 +5125,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 251.46 62.23 0)
+			(at 254 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5481,7 +5481,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 77.47 270)
+		(at 251.46 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5492,7 +5492,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b10b06a-55a9-43ff-898c-641cc601e6c5")
 		(property "Reference" "R8"
-			(at 254 71.12 90)
+			(at 251.46 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5502,7 +5502,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 254 73.66 90)
+			(at 251.46 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5512,7 +5512,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 254 75.692 90)
+			(at 251.46 60.452 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5523,7 +5523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 77.47 0)
+			(at 251.46 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5534,7 +5534,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 77.47 0)
+			(at 251.46 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,7 +6433,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 63.5 270)
+		(at 229.87 45.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6444,7 +6444,7 @@
 		(fields_autoplaced yes)
 		(uuid "84109519-1ec5-45e9-b615-f6b6700f08b2")
 		(property "Reference" "R5"
-			(at 210.82 57.15 90)
+			(at 229.87 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6454,7 +6454,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.82 59.69 90)
+			(at 229.87 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6464,7 +6464,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 210.82 61.722 90)
+			(at 229.87 43.942 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6475,7 +6475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 63.5 0)
+			(at 229.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,7 +6486,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 63.5 0)
+			(at 229.87 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7387,7 +7387,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 229.87 45.72 270)
+		(at 210.82 63.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7398,7 +7398,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccd25fe9-5500-4b7b-99fa-efec250d300e")
 		(property "Reference" "R9"
-			(at 229.87 39.37 90)
+			(at 210.82 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7408,7 +7408,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 229.87 41.91 90)
+			(at 210.82 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7418,7 +7418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 229.87 43.942 90)
+			(at 210.82 61.722 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7429,7 +7429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 45.72 0)
+			(at 210.82 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7440,7 +7440,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 229.87 45.72 0)
+			(at 210.82 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -315,7 +315,7 @@ void readButtons() {
               updateOled();
               break;
 
-              
+              S
             } 
         }
       } 
