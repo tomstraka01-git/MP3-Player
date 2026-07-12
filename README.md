@@ -32,4 +32,4 @@ I used a custom PCB, wich takes power from a 3.3V Li-Po 450 mah and passes it th
   
 ![MainPhoto](images/MainAssembly_IMAGE5.png)
 
-![MainPhoto](images/MainAssembly_IMAGE6.png)
+![MainPhoto](images/MainAssembly_IMAGE6.PNG)
