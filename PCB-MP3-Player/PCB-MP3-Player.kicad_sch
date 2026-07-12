@@ -4493,7 +4493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SHL_SM06B-SHLS-TF_1x06-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 			(at 68.58 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4891,7 +4891,7 @@
 				)
 			)
 		)
-		(property "Value" "Littelfuse 02301002H"
+		(property "Value" "520.620"
 			(at 26.416 169.926 90)
 			(show_name no)
 			(do_not_autoplace no)
