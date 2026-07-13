@@ -81,7 +81,9 @@ I used a custom PCB, which takes power from a 3.7 Li-Po 450 mah (the battery sho
 | JST battery terminal | 3 | $0.93 | [Link](https://www.tme.eu/cz/details/s2b-ph-k-s/signalove-konektory-raster-2-00mm/jst/s2b-ph-k-s-lf-sn/) | Battery terminal — the battery connects to it and distributes the power |
 | Raspberry Pi Pico 2 WH | 1 | $9.71 | [Link](https://www.tme.eu/cz/details/sc1634/raspberry-pi-vestavene-systemy/raspberry-pi/raspberry-pi-pico-2-wh/) | The main brain of the system — reads the micro SD card, runs the UI menu, sends the sound output to the sound chip |
 | Li-Po battery 3.7V 450mAh | 1 | $5.90 | [Link](https://dratek.cz/arduino-platforma/179445-lipol-baterie-502248-450mah-3-7v.html) | Shipping to Czech Republic |
+| JLCPCB PCB | 5 | $3.20 | [Link](https://cart.jlcpcb.com/quote?stencilLayer=2&stencilWidth=100&stencilLength=100&stencilCounts=5&plateType=1&spm=Jlcpcb.Homepage.1010) | Shipping to Czech Republic |
 | Shipping — Dratek.cz | 1 | $4.00 | [Link](https://www.dratek.cz) | Shipping to Czech Republic |
-| Shipping — TME.eu | 1 | $8.47 | [Link](https://www.tme.eu/) | Shipping to Czech Republic |
+| Shipping — TME.eu | 1 | $8.47 | [Link](https://www.tme.eu/) | |
 | Shipping — LaskaKit | 1 | $3.76 | [Link](https://www.laskakit.cz) | |
-| **Total Price (USD)** | | **$55.70** | | |
+| Shipping — JLCPCB | 1 | $12.00 | [Link](https://jlcpcb.com/) | |
+| **Total Price (USD)** | | **$65.82** | | |
