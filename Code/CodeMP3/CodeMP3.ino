@@ -113,7 +113,7 @@ void setup() {
   display.display();
 
   out = new AudioOutputI2S();
-  out->setPinout(BCK_PIN, LRCK_PIN, DIN_PIN);
+  out->SetPinout(BCK_PIN, LRCK_PIN, DIN_PIN);
   out->SetGain(volume);
 
   File root = SD.open("/");
@@ -315,7 +315,7 @@ void readButtons() {
               updateOled();
               break;
 
-              S
+              
             } 
         }
       } 
