@@ -2,19 +2,34 @@
   <img src="images/MainAssembly_IMAGE1.png" alt="MainPhoto" style="width: 100%; height: auto; max-width: 100%;">
 </p>
 
+
 # MP3-Player
 
-# How to use?
-Solder all the components to the board how they should be soldered. Print the case and the hatch. Screw the pcb to the case. Download the sofrware, flash it using arduino ide. Now you need to have a microSD card. Just add your mp3 or wav songs to the root directory of the microSD card, plug the microSD card to the reader, add your charged battery and you can listen to the songs.
+# What is it?
+MP3-Player is a DTI project made by me. It can:
+- Play songs from a microSD card directly to your earphones.
+- Stay on battery for multiple hours.
+- Show you info about battery charge and info about song (time, song name, playing/not playing, etc.).
+- Be controlled with 5 buttons.
 
+# Why?
+I like listening to music and making my own hardware/software projects, and i also wanted to learn more about how these things are made, so i chose to make one myself. 
+
+# How to use?
+1. Solder all the components to the custom PCB board.
+2. 3D print the case and the battery hatch.
+3. Screw the PCB securely into the case.
+4. Download the firmware and flash it using the Arduino IDE.
+5. Format a microSD card, add your `.mp3` or `.wav` songs directly to the root directory, and plug it into the reader.
+6. Connect your charged Li-Po battery and you can now listen to your songs.
 
 # Software
-I wrote the main firmware in arduino ide c++. To flash the board, you must install arduino ide and the libraries i am using. Then connect the micro usb cable to the mcu, and flash the code. The code handles all the comunications between the modules, plays the song to the PCM5102A and creates the ui, checks for buttons, checks battery etc.
+I wrote the main firmware in arduino ide c++. To flash the board, you must install arduino ide and the libraries i am using. Then connect the micro usb cable to the mcu, and flash the code. The code handles all the communications between the modules, plays the song to the PCM5102A and creates the ui, checks for buttons, checks battery etc.
 
 # Electronics
 [![View PCB on KiCanvas](https://hack.club/pcb-badge)](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Ftomstraka01-git%2FMP3-Player%2Ftree%2Fmain%2FPCB-MP3-Player)
 
-I used a custom PCB, wich takes power from a 3.3V Li-Po 450 mah (the battery should last for few hours) and passes it through a fast fuse for short circuit protection and diode for reverse connection protection. Then it goes to the rasberry pi pico 2 WH, wich converts the power to stable 3.3V. The MCU reads the micro sd card reader module through spi, and then plays the song into the PCM5102A. It also displays all the info to the oled screen, and checks the five buttons for input. The five buttons have these features:
+I used a custom PCB, which takes power from a 3.7 Li-Po 450 mah (the battery should last for few hours) and passes it through a fast fuse for short circuit protection and diode for reverse connection protection. Then it goes to the rasberry pi pico 2 WH, which converts the power to stable 3.3V. The MCU reads the micro sd card reader module through spi, and then plays the song into the PCM5102A. It also displays all the info to the oled screen, and checks the five buttons for input. The five buttons have these features:
 - Volume Down
 - Volume Up
 - Previous Song
