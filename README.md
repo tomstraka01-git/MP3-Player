@@ -7,7 +7,7 @@
 # MP3-Player
 
 ## What is it?
-MP3-Player is a DTI project made by me. It can:
+MP3-Player is a DYI project made by me. It can:
 - Play songs from a microSD card directly to your earphones.
 - Stay on battery for multiple hours.
 - Show you info about battery charge and info about song (time, song name, playing/not playing, etc.).
