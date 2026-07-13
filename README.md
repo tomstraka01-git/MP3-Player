@@ -17,7 +17,6 @@ MP3-Player is a DTI project made by me. It can:
 I like listening to music and making my own hardware/software projects, and i also wanted to learn more about how these things are made, so i chose to make one myself. 
 
 ## How to use?
-[![Download ZIP](https://img.shields.io/badge/Download-Project_ZIP-blue?style=for-the-badge&logo=github)](https://github.com/tomstraka01-git/MP3-Player/archive/refs/heads/main.zip)
 1. Solder all the components to the custom PCB board.
 2. 3D print the case and the battery hatch.
 3. Screw the PCB securely into the case.
